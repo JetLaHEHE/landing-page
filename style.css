@@ -61,8 +61,28 @@ span {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .cards {
     display: flex;
+}
+
+.card {
+    font-family: 'Hero';
+    max-width: 100px;
+    text-align: center;
+}
+
+#title-information {
+    font-family: 'Roboto';
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.card img {
+    border: 2px solid blue;
+    max-height: 150px;
+    max-height: 150px;
 }
