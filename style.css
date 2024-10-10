@@ -39,7 +39,7 @@ ul {
 .left {
     display: flex;
     flex-direction: column;
-    max-width: 200px;
+    max-width: 300px;
 }
 
 .button-content {
@@ -109,4 +109,38 @@ span {
 
 .quotes h3 {
     margin-left: 300px;
+}
+
+.sign-up {
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up button {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 15px;
+    color: white;
+    background-color: transparent;
+}
+
+.inner-content {
+    gap: 20px;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    align-items: center;
+    flex-direction: center;
+    padding: 20px;
+    display: flex;
+    background-color: #3882F6;
+}
+
+.content h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    max-width: 400px;
 }
