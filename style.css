@@ -89,3 +89,24 @@ span {
     max-height: 150px;
     max-height: 150px;
 }
+
+.quotes {
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotes p {
+    flex-wrap: wrap;
+    font-size: 26px;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 600px;
+}
+
+.quotes h3 {
+    margin-left: 300px;
+}
